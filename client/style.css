@@ -14,9 +14,20 @@ body
     max-width: 300px;
 }
 
+h1
+{
+    font-weight: lighter;
+}
+
+h2
+{
+    font-weight: lighter;
+}
+
 .dice 
 {
     margin: 20px 0;
+    font-weight: bold;
 }
 
 input {
@@ -32,6 +43,7 @@ input {
 
 button {
     background-color: #28a745;
+    font-weight: bold;
     color: white;
     padding: 10px 20px;
     border: none;
