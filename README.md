@@ -13,4 +13,5 @@ file added/modified;
 - style.css
 - script.js
 
+AI Statement of Usage: ChatGPT was used to modify the stylesheet to fit the formatting of the page
 
