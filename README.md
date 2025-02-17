@@ -1,11 +1,16 @@
-# Node.js and Express Hosted on Microsoft Azure Template
+# Node.js Hosted on Microsoft Azure Template
 
-Dependencies: Node.js and Express
+Dependencies: Node.js 
 
-This repository is a template that can be used to create a Node.js and Express website for hosting on Microsoft Azure.
+Dice Roller Project 
 
-Initial Usage:
-- npm install express
-- npm start
+This website is used to generate five di needed for Yahtzee, using Node.js framework and Azure to host the site
+
+This project has been built off of the Node.js and express template by Eric Pogue, the template repo can be found here: https://github.com/EricPogueExampleCode-Web/node-js-express-and-azure-template
+
+file added/modified; 
+- index.html
+- style.css
+- script.js
 
 
