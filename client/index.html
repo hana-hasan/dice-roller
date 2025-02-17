@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Node.js on Azure Template</title>
+    <title>Yahtzee Web Dice Roller</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-	<h1>Node.js and Express Hosted on Microsoft Azure Template</h1>
-	<p>This repository is a template that can be used to create a Node.js and Express website for hosting on Microsoft 
-	Azure.</p>
+<body onload="rollDice()">
+    <div class="wrapper">
+    <h1>Yahtzee Web Dice Roller</h1>
+    <h2>Click "Reroll" to generate five randon numner between 1-6</h2>
+
+    <div class="dice">
+        <label for="d1">Die 1:</label>
+        <input type="text" id="d1" readonly>
+        <label for="d2">Die 2:</label>
+        <input type="text" id="d2" readonly>
+        <label for="d3">Die 3:</label>
+        <input type="text" id="d3" readonly>
+        <label for="d4">Die 4:</label>
+        <input type="text" id="d4" readonly>
+        <label for="d5">Die 5:</label>
+        <input type="text" id="d5" readonly>
+    </div>
+
+    <button autofocus onclick="rollDice()">Roll!</button>
+
+    </div>
+
+
 </body>
 </html>
